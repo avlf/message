@@ -1,0 +1,22 @@
+{% load i18n %}
+
+{% block content %}
+<h1>{{LANGUAGE_CODE}}</h1>
+<div class='container'>
+    <h1>{% translate 'Describe problem' %}</h1>
+    <div class="messages">
+        {% for message in messages %}
+        <div {%if message.tags  %} class="alert alert-{{message.tags}}" {% endif %}>
+            {{message}}
+        </div>
+        {% endfor %}
+    </div>
+    </br>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form}}
+        <button type="submit" class="btn btn-success"> {% translate 'Send message' %}</button>
+    </form>
+
+</div>
+{% endblock %}
