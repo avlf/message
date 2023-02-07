@@ -18,7 +18,7 @@ class MessageForm(forms.ModelForm):
             'name': forms.TextInput(attrs={'placeholder': _('Max')}),
             'phone': forms.TextInput(attrs={'placeholder': '+7(858)855-95-95'}),
             'email': forms.TextInput(attrs={'placeholder': 'hgh@gmail.com'}),
-            'text_error': forms.TextArea(attrs={'placeholder': _('All error text')}),
+            'text_error': forms.Textarea(attrs={'placeholder': _('All error text')}),
         }
 
     # def save(self, commit=True):

@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-07 18:21+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\message_app\forms.py:18
+msgid "Max"
+msgstr "Максимально"
+
+#: .\message_app\forms.py:21
+msgid "All error text"
+msgstr "Текст всех ошибок"
+
+#: .\message_app\locale.py:4
+msgid "Russian"
+msgstr "Русский"
+
+#: .\message_app\locale.py:5 .\message_servise\settings.py:132
+msgid "English"
+msgstr "Английский"
+
+#: .\message_app\models.py:9
+msgid "Description error"
+msgstr "Ошибка описаний "
+
+#: .\message_app\models.py:10
+msgid "Combat data error"
+msgstr "Ошибка характеристик"
+
+#: .\message_app\models.py:11
+msgid "Name error"
+msgstr "Ошибка имени"
+
+#: .\message_app\models.py:12
+msgid "Image error"
+msgstr "Ошибка фото"
+
+#: .\message_app\models.py:13
+msgid "Front display error"
+msgstr "Ошибка внешнего оформления"
+
+#: .\message_app\models.py:14
+msgid "Other error"
+msgstr "Другая ошибка"
+
+#: .\message_app\models.py:16
+msgid "Name"
+msgstr "Имя"
+
+#: .\message_app\models.py:17
+msgid "Phone"
+msgstr "Номер телефона"
+
+#: .\message_app\models.py:18
+msgid "Email"
+msgstr "Почта"
+
+#: .\message_app\models.py:19
+msgid "Type"
+msgstr "Тип ошибки"
+
+#: .\message_app\models.py:20
+msgid "Text"
+msgstr "Описание ошибки"
+
+#: .\message_app\validators.py:6
+msgid "Use correct phone number."
+msgstr "Используйте правильный номер телефона"
+
+#: .\message_app\views.py:13
+msgid "Message is succesfully sent"
+msgstr "Сообщение успешно отправленно"
+
+#: .\message_app\views.py:15
+msgid "Invalid form"
+msgstr "Не правильная форма"
+
+#: .\message_servise\settings.py:131
+msgid "Russia"
+msgstr "Русский"

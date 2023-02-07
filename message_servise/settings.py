@@ -121,6 +121,15 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LANGUAGE_PATHS = [
-    os.path.join(BASE_DIR, '/', 'locale'),
-    os.path.join(BASE_DIR, 'message_app/locale')
+    os.path.join(BASE_DIR, 'locale'),
+    # os.path.join(BASE_DIR, 'message_app/locale')
 ]
+
+gettext = lambda s: s
+
+LANGUAGES = (
+    ('ru', gettext('Russia')),
+    ('en', gettext('English')),
+)
+
+LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
